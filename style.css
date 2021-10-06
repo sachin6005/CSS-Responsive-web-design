@@ -1,0 +1,79 @@
+body{
+    background-color: lightgray;
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 100%;
+}
+div{
+     display: inline-block;
+     margin-right: 200px;
+     width: 30vw;
+}
+h1{
+    color: #1877f2;
+    font-size: 50px;
+}
+p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+
+
+}
+section{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
+#login{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+@media screen and (max-width:960px) and (min-width:200px){
+    div{
+       float: right;
+        width: 30vw;
+        position: absolute;
+        top: 20px;
+        right: 80px;
+   }
+   h1{
+       margin-left: 80px;
+   }
+   p{
+       margin-right: 100px;
+       position: fixed;
+   }
+   section{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    position: fixed;
+    right: 150px;
+    bottom: 20px;
+    margin: 0%;
+    
+}
+}
